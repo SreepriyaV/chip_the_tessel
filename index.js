@@ -1,6 +1,6 @@
 'use strict';
 
-// Import the interface to Tessel hardware
+ // Import the interface to Tessel hardware
 const tessel = require('tessel');
 
 // Turn one of the LEDs on to start.
@@ -12,4 +12,4 @@ setInterval(() => {
   tessel.led[3].toggle();
 }, 100);
 
-console.log("I'm blinking! (Press CTRL + C to stop)");
+console.log("I'm blinking! (Press CTRL + C to stop)"); 
